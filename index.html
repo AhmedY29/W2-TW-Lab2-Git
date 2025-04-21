@@ -6,17 +6,19 @@
     <title>Lab2-Git-Ahmed-Alsaleh</title>
   </head>
   <body>
-    <h1>Car</h1>
-    <table>
+    <h1>Cars</h1>
+    <table border="1">
       <tr>
+        <th>Car Name</th>
         <th>Car Img</th>
         <th>Car Price</th>
         <th>Car Website</th>
       </tr>
       <tr>
+        <td>Audi</td>
         <td>
           <img
-            src="https://images.pexels.com/photos/244212/pexels-photo-244212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://images.pexels.com/photos/6194412/pexels-photo-6194412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             height="100"
             alt="car-img"
           />
@@ -25,6 +27,7 @@
         <td><a href="https://www.audi.com/en/">Audi Website</a></td>
       </tr>
       <tr>
+        <td>Mercedes</td>
         <td>
           <img
             src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg"
@@ -45,6 +48,7 @@
         </td>
       </tr>
       <tr>
+        <td>BMW</td>
         <td>
           <img
             src="https://images.pexels.com/photos/93615/pexels-photo-93615.jpeg"
@@ -58,5 +62,16 @@
         </td>
       </tr>
     </table>
+    <hr />
+    <form>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required />
+      <label for="bdate">Date Of Birth</label>
+      <input type="date" name="bdate" id="bdate" required />
+      <input type="submit" value="Submit" />
+    </form>
+    <hr />
   </body>
 </html>
